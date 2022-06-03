@@ -29,6 +29,7 @@ setResults(response.data[0]);
       <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange} />
       </form>
+      <br />
       <Results results={results}/>
     </div>
   );
