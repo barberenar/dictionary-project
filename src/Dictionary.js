@@ -32,7 +32,7 @@ setResults(response.data[0]);
   }
 
 function handleSubmit(event) {
-  event.prefentDefault();
+  event.preventDefault();
   search();
 }
 
